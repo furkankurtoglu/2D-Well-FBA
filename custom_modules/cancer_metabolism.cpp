@@ -184,10 +184,10 @@ void setup_tissue( void )
 
 void update_cell(PhysiCell::Cell* pCell, PhysiCell::Phenotype& phenotype, double dt ){
 
-	dFBAIntracellular *model = (dFBAIntracellular*) phenotype.intracellular;
-	model->update(pCell, phenotype, dt);
-  
-  
+	/*dFBAIntracellular *model = (dFBAIntracellular*) phenotype.intracellular;*/
+	/*model->update(pCell, phenotype, dt);*/
+
+  /*
   phenotype.volume.fluid += dt * phenotype.volume.fluid_change_rate *
   	( phenotype.volume.target_fluid_fraction * phenotype.volume.total - phenotype.volume.fluid );
 
@@ -209,7 +209,7 @@ void update_cell(PhysiCell::Cell* pCell, PhysiCell::Phenotype& phenotype, double
 
   // Tell physicell to update the cell radius to the new volume
   phenotype.geometry.update(pCell, phenotype, dt);
-
+ */
 
 
 }
@@ -252,6 +252,7 @@ std::vector<std::string> my_coloring_function( Cell* pCell )
 		output[0] = "red";
 		output[1] = "red";
 		output[2] = "red";
+		std::cout << "color CRCs red" << std::endl;
 	}
 
 	if(pCell->phenotype.death.dead == false && pCell->type == 1)
@@ -259,6 +260,7 @@ std::vector<std::string> my_coloring_function( Cell* pCell )
 		 output[0] = "blue";
 		 output[1] = "blue";
 		 output[2] = "blue";
+		 std::cout << "color fibroblasts" << std::endl;
 	}
 
 	return output;

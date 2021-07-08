@@ -11,9 +11,9 @@
 		</software>
 		<citation />
 		<current_time units="min">1.000000</current_time>
-		<current_runtime units="sec">0.110086</current_runtime>
-		<created>2021-07-08T15:48:02Z</created>
-		<last_modified>2021-07-08T15:48:02Z</last_modified>
+		<current_runtime units="sec">0.105310</current_runtime>
+		<created>2021-07-08T16:38:14Z</created>
+		<last_modified>2021-07-08T16:38:14Z</last_modified>
 	</metadata>
 	<microenvironment>
 		<domain name="microenvironment">
@@ -89,7 +89,13 @@
 							<label index="22" size="3">motility_bias_direction</label>
 							<label index="25" size="1">persistence_time</label>
 							<label index="26" size="1">motility_reserved</label>
-							<label index="27" size="1">oncoprotein</label>
+							<label index="27" size="1">organoid_number</label>
+							<label index="28" size="1">oxygen_i_conc</label>
+							<label index="29" size="1">glucose_i_conc</label>
+							<label index="30" size="1">glutamine_i_conc</label>
+							<label index="31" size="1">lactate_i_conc</label>
+							<label index="32" size="1">energy</label>
+							<label index="33" size="1">lactate_threshold</label>
 						</labels>
 						<filename>output00000001_cells_physicell.mat</filename>
 					</simplified_data>
