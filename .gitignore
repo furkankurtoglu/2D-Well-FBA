@@ -4,3 +4,7 @@ unit-test-conservation.exe
 Makefile-backup
 *.exe
 cancer_immune_3D
+addons/dFBA/ext
+.DS_Store
+addons/.DS_Store
+

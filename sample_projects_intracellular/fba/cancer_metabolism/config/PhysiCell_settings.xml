@@ -251,7 +251,7 @@
 				</secretion>
 				<molecular />
 				<intracellular type="dfba">
-					<sbml_filename>./config/iSIM.xml</sbml_filename>
+					<sbml_filename>./config/Junmin_FBA.xml</sbml_filename>
 					<exchange substrate="glucose">
 						<fba_flux>R_E1</fba_flux>
 						<Km units="microM">1.75</Km>
